@@ -781,7 +781,7 @@ if(WITH_FOLLY_DISTRIBUTED_MUTEX)
 endif()
 
 set(ROCKSDB_STATIC_LIB rocksdb${ARTIFACT_SUFFIX})
-set(ROCKSDB_SHARED_LIB rocksdb-shared${ARTIFACT_SUFFIX})
+set(ROCKSDB_SHARED_LIB rocksdb${ARTIFACT_SUFFIX})
 
 option(ROCKSDB_BUILD_SHARED "Build shared versions of the RocksDB libraries" ON)
 
